@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&family=Roboto:ital,wght@0,400;0,500;1,400&display=swap');
+body{
+  font-family: 'Roboto';
+}
+
+*{
+  margin: 0;
+  scroll-behavior: smooth;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+  -webkit-appearance: none;
+  margin: 0;
+}
+body{
+  cursor: url("./images/cursor.png"),auto;
+}
+body::-webkit-scrollbar {
+  width: 1vmax;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: inherit;
+}
+
+body::-webkit-scrollbar-thumb {
+
+  background: tomato;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  background-clip:content-box;
+}
+/*Firefox*/
+input[type="number"]{
+  -moz-appearance: textfield;
+}
+
+.greenColor{
+  color: green !important;
+}
+.redColor{
+  color: red !important;
+}

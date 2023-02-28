@@ -1,0 +1,20 @@
+.error{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.error>div{
+    margin-top: 1vmax;
+    padding: 1vmax 1vmax;
+    background-color: tomato;
+    border-radius: 5px;
+}
+.error>div:hover{
+    background-color: rgb(231, 80, 53);
+}
+.error >div a{
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,19 @@
+.productListContainer{
+    width: 100%;
+    height: auto;
+    border-left: 1px solid rgba(0,0,0,0.150);
+    box-sizing: border-box;
+}
+#productListHeading{
+    font: 400 2rem "Roboto";
+    padding: 0.5rem;
+    box-sizing: border-box;
+    color: rgba(0,0,0,0.673);
+    transition: all 0.5s;
+    margin: 2rem;
+    text-align: center;
+}
+.productListTable{
+    background-color: white;
+    border: none !important;
+}
